@@ -1,0 +1,66 @@
+testing
+
+desktop path 
+"C:\Users\VamshiRajkumar\OneDrive\Desktop"
+
+gun detection using AI path
+"C:\Users\VamshiRajkumar\OneDrive\Documents\AcademicProjects\Gun Detection Using AI"
+
+labelImg dataset on desktop path
+C:\Users\VamshiRajkumar\OneDrive\Desktop\labelImg
+
+
+git clone https://github.com/tzutalin/labelImg.git
+
+
+commands for labelImg file(if cmd)
+pip install pipenv
+pipenv shell                   (creates a venv)
+pip install pyqt5==5.15.2 lxml (error)
+pip install pyqt5 lxml         (no error)
+pipenv run make qt5py3
+pipenv run python3 labelImg.py
+
+run the program
+python labelImg.py
+
+
+lxml      5.1.0
+pip       23.3.1
+PyQt5     5.15.10
+PyQt5-Qt5 5.15.2
+PyQt5-sip 12.13.0
+
+
+
+
+server side 
+path to server side
+PS C:\Users\VamshiRajkumar\OneDrive\Desktop\Server Side>
+
+check version of django
+python -m django --version  
+
+django-admin startproject wd_ss
+
+python manage.py startapp detection
+
+python manage.py startapp alertupload_rest
+
+after done with login/register UI
+pip install djangorestframework
+
+python manage.py makemigrations detection
+
+python manage.py migrate 
+
+to create superuser on admin page
+python manage.py createsuperuser
+need to type username,email,pass
+pass and username is admin
+email is vashirajkumar1@gmail.com
+
+
+
+run the django server
+python manage.py runserver
